@@ -1,0 +1,17 @@
+
+
+.nav-link {
+color: gray;
+transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.nav-link:hover {
+color: white; /* On hover */
+}
+
+.nav-link.active {
+color: white;
+font-weight: bold;
+text-decoration: underline;
+}
+  
