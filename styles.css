@@ -1,4 +1,11 @@
-
+body{
+    background-color: #dae3ee;
+}
+.home{
+    /* height: 100vh; */
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.1)),url(images/1.avif);
+    background-size: cover;
+}
 
 .nav-link {
 color: gray;
@@ -14,4 +21,11 @@ color: white;
 font-weight: bold;
 text-decoration: underline;
 }
-  
+
+/* -----------introduction--------- */
+.intro{
+    color: whitesmoke;
+    padding: 10% 10%;
+    text-align: justify;
+}
+
