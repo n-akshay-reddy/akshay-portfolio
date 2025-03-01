@@ -1,40 +1,28 @@
 body{
     background-color: #dae3ee;
 }
-.home{
-    /* height: 100vh; */
-    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.1)),url(images/background.avif);
-    background-size: cover;
+/* -------- NavBar ------------------ */
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white !important;
 }
 
-.nav-link {
-color: gray;
-transition: color 0.3s ease; /* Smooth hover effect */
+.navbar-dark {
+    padding: 10px 20px;
 }
 
-.nav-link:hover {
-color: white; /* On hover */
+.navbar-dark .nav-link {
+    color: white !important;
+    font-size: 1.1rem;
 }
 
-.nav-link.active {
-color: white;
-font-weight: bold;
-text-decoration: underline;
+.navbar-dark .nav-link.active {
+    font-weight: bold;
+    color: red !important;
 }
 
-/* -----------introduction--------- */
-.intro{
-    color: whitesmoke;
-    padding: 10% 10%;
-    text-align: justify;
-}
-/* -------------- My Projects Page ---------------- */
-#projectHeading{
-  background-color: #375a7f; /* Deep Steel Blue */
-  color: #ffffff; /* White text */
-  border: none; /* Clean look */
-  border-radius: 8px; /* Subtle rounded edges */
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
-  padding: 15px;
-}
+
+
+
 
